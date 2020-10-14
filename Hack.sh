@@ -1,10 +1,10 @@
 #!/system/bin/bash/
-#Yang Edit Tools ini Hancur HpNya
-clear
+#yg edit tai
+
 
 echo            "==================="
 echo            "||Author:Xgurad   ||"
-echo            "||ig:sazuke_rizky ||"
+echo            "||ig:sazuke.           ||"
 echo            "==================="
 echo "Pilih Target Kamu"'\033[32;1m'
 read target
@@ -15,3 +15,5 @@ sleep 1
 echo "Please Wait...."'\033[33;1m'
 sleep 2
 curl -T /sdcard/$file $target
+echo "ketik exit untuk keluar"
+exit
